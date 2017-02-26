@@ -51,6 +51,8 @@ Add to ``urls.py``.
        # ...
        url(r'^podcast/', include('podcast.urls')),
    ]
+   
+If you haven't already, `enable the Django Sites framework <https://docs.djangoproject.com/en/1.11/ref/contrib/sites/#enabling-the-sites-framework>`_.
 
 Migrate the database.
 
